@@ -19,10 +19,6 @@ from fonctionskernel import p,q
 
 
 
-
-gram_matrix_probabilistic = np.load("gram_matrix.npy")
-
-
 def train_and_evaluate(X_train, bool_train, X_test, bool_test, C, kernel_function):
     """
     Train SVM, evaluate with ROC curve and return the model and its AUC score.
@@ -46,12 +42,10 @@ def run_svm_analysis():
     """
     data = pd.read_csv("data/df.csv")
     data = fsl2.convert_df_to_vectors2(data)
-    print("done")
 
     #select 4 first rows of data
-    data = data
+    # data = data.head(100)
     
-    print(p,q)
     n = p + q
     # print(data)
 
@@ -59,9 +53,9 @@ def run_svm_analysis():
     X_train, X_test, bool_train, bool_test = fk.test_train_split_random_pos_proba(data,n)
        # Define parameter grid
     param_grid = {
-        'C': [0.01,0.05,0.1,0.5,1,5],  # Example C values
+        'C': [0.01,0.05,0.1],  # Example C values
         # 'kernel': ['rbf'],  # Example kernels
-        'kernel' : [fk.RBF_kernelBLOSUM, fk.RBF_kernelPAM, 'rbf']
+        'kernel' : [fk.RBF_kernelBLOSUM, fk.RBF_kernelPAM]
     }
 
     # Setup the SVM classifier with GridSearchCV
@@ -93,11 +87,11 @@ def run_svm_analysis():
     plt.title(f'Receiver Operating Characteristic {best_model.kernel} {best_model.C}')
 
     plt.legend(loc="lower right")
-    plt.savefig('data/ROC_Curve_accuracy2.png')
+    plt.savefig('data/ROC_Curve_accuracy_matrix.png')
     plt.close()
 
     # Save the best model
-    joblib.dump(best_model, 'data/models/best_svm_model_accuracy2.pkl')
+    joblib.dump(best_model, 'data/models/best_svm_model_matrix.pkl')
     print(f"Best Model Saved with AUC: {roc_auc}, Time to Run: {end - start}s")
     with open("data/accuracy.txt", "w") as f:
         f.write(f"Best Model Saved with AUC: {roc_auc}, Time to Run: {end - start}s")
@@ -110,8 +104,9 @@ def run_svm_analysis():
             f.write("Configuration {}: {}\n".format(i+1, params))
             f.write("Mean train score: {}\n".format(grid_search.cv_results_['mean_train_score'][i]))
             f.write("Mean test score: {}\n".format(grid_search.cv_results_['mean_test_score'][i]))
+            f.write("score time: {}\n".format(grid_search.cv_results_['mean_score_time'][i]))
             f.write("\n")
-        f.write("best params accuracy on X_test".format(accuracy_score(bool_test, best_model.predict(X_test))))
+        f.write("best params accuracy on X_test :" + str(grid_search.score(X_test, bool_test)))
 
 
 
