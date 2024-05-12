@@ -1,0 +1,2814 @@
+In this file we add the results obtained during the work
+For each results, be sure to specify what parameters you used
+
+###     RESULTS :   #####
+
+Parameters of the model:
+Data obtained from the EUKSIG_13.red file
+
+p = 13    q = 2
+
+Average position of the cleavage site:
+22.649751243781093
+
+Occurrences of each amino acid at every position relative to the cleavage site:
+   -13  -12  -11  -10  -9   -8   -7   -6   -5   -4   -3   -2   -1   0    1  
+A  101  112  106   99  157  128  107  149  145  106  256   80  456  139   55
+C   36   32   34   31   42   65   57   39   30   34   68   21   50   23   27
+D    2    0    2    0    3    2    4    5   25   14    4   44    6   68   66
+E    1    2    4    5    4    6   12    9   28   27    7   66    5   91   88
+F   74   67   80   81   65   58   91   66   24   34    5   46    6   34   28
+G   39   24   26   34   36   50   40   29  108  125   74   38  183   52   57
+H    5    3    4    2    4   10   14    7   23   12    5   53    2   23   22
+I   73   67   81   58   52   52   47   69   21   43   41   18    4   36   34
+K    4    1    1    2    0    3    3    3   20   19    7   24    4   52   40
+L  375  430  396  447  386  329  332  279   98  146   65  164   20   60   50
+M   26   14   19   19   10   30   20   10    5   11    9   14    2   14   12
+N    2    4    4    6    7    7    8    7   24   14    9   37    9   26   52
+P   23   13   17    9   12   13   24   60   98   74    7   17   27   11  165
+Q    3    6    4    9   11   17   18   13   55   40    5   72   15  135   42
+R    7    4    4    2    3    7    9    6   33   38    4   55   20   32   40
+S   57   47   40   44   64   76   67   66  117   96  141  111  141   90   87
+T   32   39   30   37   36   49   41   35   70   70  103   43   43   39   55
+V  112  124  127  100   98   84   77  126   60   71  191   44    8   50   56
+W   16   13   20   11    9   12   24   21   13   13    2   33    2    9    6
+Y   17    3    6    9    6    7   10    6    8   18    2   25    2   21   23
+*    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+
+Observed frequency of each amino acid at the relative position:
+        -13       -12       -11       -10       -9        -8        -7        -6        -5        -4        -3        -2        -1        0         1  
+A  0.101493  0.112438  0.106468  0.099502  0.157214  0.128358  0.107463  0.149254  0.145274  0.106468  0.255721  0.080597  0.454726  0.139303  0.055721
+C  0.036816  0.032836  0.034826  0.031841  0.042786  0.065672  0.057711  0.039801  0.030846  0.034826  0.068657  0.021891  0.050746  0.023881  0.027861
+D  0.002985  0.000995  0.002985  0.000995  0.003980  0.002985  0.004975  0.005970  0.025871  0.014925  0.004975  0.044776  0.006965  0.068657  0.066667
+E  0.001990  0.002985  0.004975  0.005970  0.004975  0.006965  0.012935  0.009950  0.028856  0.027861  0.007960  0.066667  0.005970  0.091542  0.088557
+F  0.074627  0.067662  0.080597  0.081592  0.065672  0.058706  0.091542  0.066667  0.024876  0.034826  0.005970  0.046766  0.006965  0.034826  0.028856
+G  0.039801  0.024876  0.026866  0.034826  0.036816  0.050746  0.040796  0.029851  0.108458  0.125373  0.074627  0.038806  0.183085  0.052736  0.057711
+H  0.005970  0.003980  0.004975  0.002985  0.004975  0.010945  0.014925  0.007960  0.023881  0.012935  0.005970  0.053731  0.002985  0.023881  0.022886
+I  0.073632  0.067662  0.081592  0.058706  0.052736  0.052736  0.047761  0.069652  0.021891  0.043781  0.041791  0.018905  0.004975  0.036816  0.034826
+K  0.004975  0.001990  0.001990  0.002985  0.000995  0.003980  0.003980  0.003980  0.020896  0.019900  0.007960  0.024876  0.004975  0.052736  0.040796
+L  0.374129  0.428856  0.395025  0.445771  0.385075  0.328358  0.331343  0.278607  0.098507  0.146269  0.065672  0.164179  0.020896  0.060697  0.050746
+M  0.026866  0.014925  0.019900  0.019900  0.010945  0.030846  0.020896  0.010945  0.005970  0.011940  0.009950  0.014925  0.002985  0.014925  0.012935
+N  0.002985  0.004975  0.004975  0.006965  0.007960  0.007960  0.008955  0.007960  0.024876  0.014925  0.009950  0.037811  0.009950  0.026866  0.052736
+P  0.023881  0.013930  0.017910  0.009950  0.012935  0.013930  0.024876  0.060697  0.098507  0.074627  0.007960  0.017910  0.027861  0.011940  0.165174
+Q  0.003980  0.006965  0.004975  0.009950  0.011940  0.017910  0.018905  0.013930  0.055721  0.040796  0.005970  0.072637  0.015920  0.135323  0.042786
+R  0.007960  0.004975  0.004975  0.002985  0.003980  0.007960  0.009950  0.006965  0.033831  0.038806  0.004975  0.055721  0.020896  0.032836  0.040796
+S  0.057711  0.047761  0.040796  0.044776  0.064677  0.076617  0.067662  0.066667  0.117413  0.096517  0.141294  0.111443  0.141294  0.090547  0.087562
+T  0.032836  0.039801  0.030846  0.037811  0.036816  0.049751  0.041791  0.035821  0.070647  0.070647  0.103483  0.043781  0.043781  0.039801  0.055721
+V  0.112438  0.124378  0.127363  0.100498  0.098507  0.084577  0.077612  0.126368  0.060697  0.071642  0.191045  0.044776  0.008955  0.050746  0.056716
+W  0.016915  0.013930  0.020896  0.011940  0.009950  0.012935  0.024876  0.021891  0.013930  0.013930  0.002985  0.033831  0.002985  0.009950  0.006965
+Y  0.017910  0.003980  0.006965  0.009950  0.006965  0.007960  0.010945  0.006965  0.008955  0.018905  0.002985  0.025871  0.002985  0.021891  0.023881
+*  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995  0.000995
+
+General background frequency of each amino acid:
+A    0.146667
+C    0.040066
+D    0.017247
+E    0.024544
+F    0.051343
+G    0.061692
+H    0.013532
+I    0.047164
+K    0.013134
+L    0.238275
+M    0.015257
+N    0.015323
+P    0.038806
+Q    0.030514
+R    0.018507
+S    0.083516
+T    0.048889
+V    0.089088
+W    0.014527
+Y    0.011808
+*    0.000995
+dtype: float64
+
+s value of each amino acid at every position:
+        -13       -12       -11       -10       -9        -8        -7        -6        -5        -4        -3        -2        -1        0         1  
+A -0.368177 -0.265762 -0.320321 -0.387980  0.069445 -0.133338 -0.311019  0.017485 -0.009543 -0.320321  0.555926 -0.598701  1.131533 -0.051508 -0.967798
+C -0.084606 -0.199016 -0.140176 -0.229788  0.065676  0.494131  0.364919 -0.006645 -0.261537 -0.140176  0.538583 -0.604482  0.236302 -0.517470 -0.363319
+D -1.754019 -2.852631 -1.754019 -2.852631 -1.466337 -1.754019 -1.243194 -1.060872  0.405465 -0.144581 -1.243194  0.954031 -0.906721  1.381475  1.352061
+E -2.512306 -2.106841 -1.596015 -1.413693 -1.596015 -1.259543 -0.640503 -0.902868  0.161843  0.126752 -1.126011  0.999240 -1.413693  1.316336  1.283184
+F  0.373966  0.275986  0.450927  0.463198  0.246133  0.134016  0.578267  0.261171 -0.724646 -0.388174 -2.151762 -0.093374 -1.997612 -0.388174 -0.576226
+G -0.438255 -0.908259 -0.831298 -0.571786 -0.516216 -0.195309 -0.413562 -0.725937  0.564213  0.709148  0.190354 -0.463573  1.087801 -0.156842 -0.066691
+H -0.818310 -1.223775 -1.000632 -1.511458 -1.000632 -0.212175  0.097980 -0.530628  0.567984 -0.045120 -0.818310  1.378914 -1.511458  0.567984  0.525424
+I  0.445443  0.360885  0.548097  0.218915  0.111670  0.111670  0.012579  0.389873 -0.767580 -0.074433 -0.120953 -0.914183 -2.249184 -0.247704 -0.303274
+K -0.970779 -1.887070 -1.887070 -1.481605 -2.580217 -1.193922 -1.193922 -1.193922  0.464306  0.415515 -0.500775  0.638659 -0.970779  1.390075  1.133355
+L  0.451175  0.587694  0.505522  0.626379  0.480010  0.320678  0.329728  0.156375 -0.883294 -0.487982 -1.288759 -0.372469 -2.433892 -1.367540 -1.546589
+M  0.565808 -0.021979  0.265703  0.265703 -0.332134  0.703958  0.314493 -0.332134 -0.938270 -0.245122 -0.427444 -0.021979 -1.631417 -0.021979 -0.165080
+N -1.635755 -1.124930 -1.124930 -0.788457 -0.654926 -0.654926 -0.537143 -0.654926  0.484508 -0.026317 -0.431782  0.903219 -0.431782  0.561469  1.235924
+P -0.485508 -1.024504 -0.773190 -1.360977 -1.098612 -1.024504 -0.444686  0.447312  0.931558  0.653926 -1.584120 -0.773190 -0.331357 -1.178655  1.448426
+Q -2.036882 -1.477266 -1.813738 -1.120591 -0.938270 -0.532805 -0.478737 -0.784119  0.602175  0.290396 -1.631417  0.867283 -0.650588  1.489479  0.338024
+R -0.843720 -1.313724 -1.313724 -1.824549 -1.536867 -0.843720 -0.620576 -0.977251  0.603199  0.740400 -1.313724  1.102190  0.121361  0.573346  0.790410
+S -0.369580 -0.558822 -0.716451 -0.623360 -0.255636 -0.086217 -0.210515 -0.225330  0.340662  0.144688  0.525804  0.288476  0.525804  0.080837  0.047314
+T -0.398030 -0.205658 -0.460550 -0.256952 -0.283620  0.017485 -0.156868 -0.311019  0.368142  0.368142  0.749853 -0.110348 -0.110348 -0.205658  0.130814
+V  0.232777  0.333703  0.357419  0.120510  0.100509 -0.051960 -0.137902  0.349576 -0.383737 -0.217945  0.762884 -0.687949 -2.297386 -0.562785 -0.451560
+W  0.152192 -0.041964  0.363501 -0.196115 -0.378436 -0.116072  0.537854  0.410021 -0.041964 -0.041964 -1.582409  0.845339 -1.582409 -0.378436 -0.735111
+Y  0.416638 -1.087439 -0.527823 -0.171148 -0.527823 -0.394292 -0.075838 -0.527823 -0.276509  0.470706 -1.375121  0.784363 -1.375121  0.617309  0.704320
+*  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+END OF RESULTS
+
+
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =2 q = 1
+Mean score of the correct neighborhoods:
+0.649075459074358
+
+Threshold for the correct neighborhoods:
+-0.38969058330457196
+Mean score of the incorrect neighborhoods:
+-0.6127075782178785
+
+Threshold for the incorrect neighborhoods:
+0.6384676447142924
+
+Optimal threshold for the deviation:
+0.12438853070486022
+
+False negatives:
+302
+False positives:
+455
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =2 q = 2
+Mean score of the correct neighborhoods:
+0.9414609030647036
+
+Threshold for the correct neighborhoods:
+-0.39349504350082665
+Mean score of the incorrect neighborhoods:
+-0.9808675620963868
+
+Threshold for the incorrect neighborhoods:
+0.5498279876909186
+
+Optimal threshold for the deviation:
+0.07816647209504601
+
+False negatives:
+290
+False positives:
+341
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =2 q = 3
+Mean score of the correct neighborhoods:
+1.0586010811550624
+
+Threshold for the correct neighborhoods:
+-0.3820092640437034
+Mean score of the incorrect neighborhoods:
+-1.182607818095388
+
+Threshold for the incorrect neighborhoods:
+0.4748794899551281
+
+Optimal threshold for the deviation:
+0.04643511295571234
+
+False negatives:
+267
+False positives:
+307
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =2 q = 4
+Mean score of the correct neighborhoods:
+1.146597794077813
+
+Threshold for the correct neighborhoods:
+-0.36631143067195127
+Mean score of the incorrect neighborhoods:
+-1.3193874083058599
+
+Threshold for the incorrect neighborhoods:
+0.40309197048702083
+
+Optimal threshold for the deviation:
+0.018390269907534784
+
+False negatives:
+272
+False positives:
+295
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =2 q = 5
+Mean score of the correct neighborhoods:
+1.2145979665887117
+
+Threshold for the correct neighborhoods:
+-0.3407067546874023
+Mean score of the incorrect neighborhoods:
+-1.4293531158500061
+
+Threshold for the incorrect neighborhoods:
+0.3085502411313943
+
+Optimal threshold for the deviation:
+-0.016078256778004008
+
+False negatives:
+263
+False positives:
+282
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =2 q = 6
+Mean score of the correct neighborhoods:
+1.2715345845764872
+
+Threshold for the correct neighborhoods:
+-0.32636823313765295
+Mean score of the incorrect neighborhoods:
+-1.4717608365388757
+
+Threshold for the incorrect neighborhoods:
+0.30578159618931466
+
+Optimal threshold for the deviation:
+-0.010293318474169144
+
+False negatives:
+257
+False positives:
+271
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =2 q = 7
+Mean score of the correct neighborhoods:
+1.3116431300753684
+
+Threshold for the correct neighborhoods:
+-0.30831881566742636
+Mean score of the incorrect neighborhoods:
+-1.44414846914039
+
+Threshold for the incorrect neighborhoods:
+0.28530088130655074
+
+Optimal threshold for the deviation:
+-0.011508967180437812
+
+False negatives:
+250
+False positives:
+272
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =2 q = 8
+Mean score of the correct neighborhoods:
+1.3485597948515329
+
+Threshold for the correct neighborhoods:
+-0.3016026532961622
+Mean score of the incorrect neighborhoods:
+-1.4239239916392874
+
+Threshold for the incorrect neighborhoods:
+0.42353144468429504
+
+Optimal threshold for the deviation:
+0.06096439569406642
+
+False negatives:
+264
+False positives:
+283
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =2 q = 9
+Mean score of the correct neighborhoods:
+1.382547474086281
+
+Threshold for the correct neighborhoods:
+-0.2966110525328951
+Mean score of the incorrect neighborhoods:
+-1.413911619109953
+
+Threshold for the incorrect neighborhoods:
+0.366963944978429
+
+Optimal threshold for the deviation:
+0.035176446222766944
+
+False negatives:
+257
+False positives:
+271
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =3 q = 1
+Mean score of the correct neighborhoods:
+0.9336298757904906
+
+Threshold for the correct neighborhoods:
+-0.44438541869946846
+Mean score of the incorrect neighborhoods:
+-1.0838436788351251
+
+Threshold for the incorrect neighborhoods:
+0.5027401903334767
+
+Optimal threshold for the deviation:
+0.02917738581700413
+
+False negatives:
+282
+False positives:
+366
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =3 q = 2
+Mean score of the correct neighborhoods:
+1.2725996225311853
+
+Threshold for the correct neighborhoods:
+-0.3751193175445513
+Mean score of the incorrect neighborhoods:
+-1.342415362300846
+
+Threshold for the incorrect neighborhoods:
+0.4928436784029675
+
+Optimal threshold for the deviation:
+0.0588621804292081
+
+False negatives:
+270
+False positives:
+290
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =3 q = 3
+Mean score of the correct neighborhoods:
+1.3951932814409262
+
+Threshold for the correct neighborhoods:
+-0.3374182325822488
+Mean score of the incorrect neighborhoods:
+-1.5646645781729538
+
+Threshold for the incorrect neighborhoods:
+0.3956604651047737
+
+Optimal threshold for the deviation:
+0.02912111626126246
+
+False negatives:
+249
+False positives:
+270
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =3 q = 4
+Mean score of the correct neighborhoods:
+1.5127831429274579
+
+Threshold for the correct neighborhoods:
+-0.29383313144709766
+Mean score of the incorrect neighborhoods:
+-1.7168773090971576
+
+Threshold for the incorrect neighborhoods:
+0.31732240148975355
+
+Optimal threshold for the deviation:
+0.011744635021327943
+
+False negatives:
+241
+False positives:
+245
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =3 q = 5
+Mean score of the correct neighborhoods:
+1.6122339407360362
+
+Threshold for the correct neighborhoods:
+-0.2448399190580588
+Mean score of the incorrect neighborhoods:
+-1.7635088034943174
+
+Threshold for the incorrect neighborhoods:
+0.29637379083396787
+
+Optimal threshold for the deviation:
+0.025766935887954645
+
+False negatives:
+239
+False positives:
+240
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =3 q = 6
+Mean score of the correct neighborhoods:
+1.688706484347489
+
+Threshold for the correct neighborhoods:
+-0.22126511091575085
+Mean score of the incorrect neighborhoods:
+-1.8448121766026646
+
+Threshold for the incorrect neighborhoods:
+0.22350470184465765
+
+Optimal threshold for the deviation:
+0.0011197954644535102
+
+False negatives:
+234
+False positives:
+244
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =3 q = 7
+Mean score of the correct neighborhoods:
+1.744209385963247
+
+Threshold for the correct neighborhoods:
+-0.1980755671525527
+Mean score of the incorrect neighborhoods:
+-1.8382307454436906
+
+Threshold for the incorrect neighborhoods:
+0.25365610703203245
+
+Optimal threshold for the deviation:
+0.027790269939739876
+
+False negatives:
+235
+False positives:
+241
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =3 q = 8
+Mean score of the correct neighborhoods:
+1.7966202390622739
+
+Threshold for the correct neighborhoods:
+-0.1867702774476132
+Mean score of the incorrect neighborhoods:
+-1.8790193654184095
+
+Threshold for the incorrect neighborhoods:
+0.295577163703425
+
+Optimal threshold for the deviation:
+0.054403443127905904
+
+False negatives:
+232
+False positives:
+240
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =3 q = 9
+Mean score of the correct neighborhoods:
+1.840592080986841
+
+Threshold for the correct neighborhoods:
+-0.17108125741687874
+Mean score of the incorrect neighborhoods:
+-1.8326751180042116
+
+Threshold for the incorrect neighborhoods:
+0.33024810759677625
+
+Optimal threshold for the deviation:
+0.07958342508994876
+
+False negatives:
+235
+False positives:
+247
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =4 q = 1
+Mean score of the correct neighborhoods:
+1.1123612725599914
+
+Threshold for the correct neighborhoods:
+-0.45284566860769626
+Mean score of the incorrect neighborhoods:
+-1.2965363666339966
+
+Threshold for the incorrect neighborhoods:
+0.4655940695726788
+
+Optimal threshold for the deviation:
+0.006374200482491266
+
+False negatives:
+283
+False positives:
+318
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =4 q = 2
+Mean score of the correct neighborhoods:
+1.393363852448115
+
+Threshold for the correct neighborhoods:
+-0.3662200475079198
+Mean score of the incorrect neighborhoods:
+-1.633313483053442
+
+Threshold for the incorrect neighborhoods:
+0.33610819515943713
+
+Optimal threshold for the deviation:
+-0.01505592617424134
+
+False negatives:
+251
+False positives:
+277
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =4 q = 3
+Mean score of the correct neighborhoods:
+1.495023883788197
+
+Threshold for the correct neighborhoods:
+-0.334332724888718
+Mean score of the incorrect neighborhoods:
+-1.6522244281068454
+
+Threshold for the incorrect neighborhoods:
+0.38100370554707785
+
+Optimal threshold for the deviation:
+0.02333549032917992
+
+False negatives:
+250
+False positives:
+267
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =4 q = 4
+Mean score of the correct neighborhoods:
+1.6018748515825072
+
+Threshold for the correct neighborhoods:
+-0.28665663798721885
+Mean score of the incorrect neighborhoods:
+-1.881866345228579
+
+Threshold for the incorrect neighborhoods:
+0.21712110989161548
+
+Optimal threshold for the deviation:
+-0.034767764047801686
+
+False negatives:
+230
+False positives:
+243
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =4 q = 5
+Mean score of the correct neighborhoods:
+1.6983383032704815
+
+Threshold for the correct neighborhoods:
+-0.23592259137731264
+Mean score of the incorrect neighborhoods:
+-1.9218505219571276
+
+Threshold for the incorrect neighborhoods:
+0.24919913435946595
+
+Optimal threshold for the deviation:
+0.006638271491076653
+
+False negatives:
+232
+False positives:
+233
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =4 q = 6
+Mean score of the correct neighborhoods:
+1.7719485633538348
+
+Threshold for the correct neighborhoods:
+-0.20558347977144154
+Mean score of the incorrect neighborhoods:
+-1.8618481546637262
+
+Threshold for the incorrect neighborhoods:
+0.31373622050911076
+
+Optimal threshold for the deviation:
+0.054076370368834725
+
+False negatives:
+243
+False positives:
+239
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =4 q = 7
+Mean score of the correct neighborhoods:
+1.8255454140964409
+
+Threshold for the correct neighborhoods:
+-0.1849809436279657
+Mean score of the incorrect neighborhoods:
+-1.9065628710916465
+
+Threshold for the incorrect neighborhoods:
+0.30922514602090967
+
+Optimal threshold for the deviation:
+0.06212210119647188
+
+False negatives:
+229
+False positives:
+246
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =4 q = 8
+Mean score of the correct neighborhoods:
+1.8759243892237587
+
+Threshold for the correct neighborhoods:
+-0.17124215249685393
+Mean score of the incorrect neighborhoods:
+-1.8645464390992892
+
+Threshold for the incorrect neighborhoods:
+0.36229869337308296
+
+Optimal threshold for the deviation:
+0.09552827043811463
+
+False negatives:
+230
+False positives:
+243
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =4 q = 9
+Mean score of the correct neighborhoods:
+1.9195215114248632
+
+Threshold for the correct neighborhoods:
+-0.15221794994734572
+Mean score of the incorrect neighborhoods:
+-1.7866010218973793
+
+Threshold for the incorrect neighborhoods:
+0.5379113789661372
+
+Optimal threshold for the deviation:
+0.19284671450939572
+
+False negatives:
+241
+False positives:
+244
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =5 q = 1
+Mean score of the correct neighborhoods:
+1.204745880940728
+
+Threshold for the correct neighborhoods:
+-0.4366359118670833
+Mean score of the incorrect neighborhoods:
+-1.4874674702625867
+
+Threshold for the incorrect neighborhoods:
+0.3455127349733793
+
+Optimal threshold for the deviation:
+-0.045561588446851986
+
+False negatives:
+250
+False positives:
+297
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =5 q = 2
+Mean score of the correct neighborhoods:
+1.4613272958706007
+
+Threshold for the correct neighborhoods:
+-0.359709820158818
+Mean score of the incorrect neighborhoods:
+-1.6495125685372143
+
+Threshold for the incorrect neighborhoods:
+0.35029409324122485
+
+Optimal threshold for the deviation:
+-0.00470786345879648
+
+False negatives:
+253
+False positives:
+275
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =5 q = 3
+Mean score of the correct neighborhoods:
+1.557506978644497
+
+Threshold for the correct neighborhoods:
+-0.3334121841207709
+Mean score of the incorrect neighborhoods:
+-1.764959836487716
+
+Threshold for the incorrect neighborhoods:
+0.2836435509449158
+
+Optimal threshold for the deviation:
+-0.024884316587927557
+
+False negatives:
+239
+False positives:
+255
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =5 q = 4
+Mean score of the correct neighborhoods:
+1.6605340883744253
+
+Threshold for the correct neighborhoods:
+-0.2875783500657245
+Mean score of the incorrect neighborhoods:
+-1.8227235898636358
+
+Threshold for the incorrect neighborhoods:
+0.31476193775537165
+
+Optimal threshold for the deviation:
+0.013591793844823563
+
+False negatives:
+245
+False positives:
+256
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =5 q = 5
+Mean score of the correct neighborhoods:
+1.75891745768523
+
+Threshold for the correct neighborhoods:
+-0.23746570219268381
+Mean score of the incorrect neighborhoods:
+-1.8752024550951545
+
+Threshold for the incorrect neighborhoods:
+0.2412826333910767
+
+Optimal threshold for the deviation:
+0.0019084655991965516
+
+False negatives:
+248
+False positives:
+241
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =5 q = 6
+Mean score of the correct neighborhoods:
+1.8346065339712176
+
+Threshold for the correct neighborhoods:
+-0.20798721459989422
+Mean score of the incorrect neighborhoods:
+-1.9155076564062825
+
+Threshold for the incorrect neighborhoods:
+0.35444353487934155
+
+Optimal threshold for the deviation:
+0.07322816013972377
+
+False negatives:
+252
+False positives:
+234
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =5 q = 7
+Mean score of the correct neighborhoods:
+1.8912954731508878
+
+Threshold for the correct neighborhoods:
+-0.18799745276970414
+Mean score of the incorrect neighborhoods:
+-1.7718447138353646
+
+Threshold for the incorrect neighborhoods:
+0.44336120911822463
+
+Optimal threshold for the deviation:
+0.12768187817426024
+
+False negatives:
+247
+False positives:
+243
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =5 q = 8
+Mean score of the correct neighborhoods:
+1.9437447292506307
+
+Threshold for the correct neighborhoods:
+-0.17470946043443814
+Mean score of the incorrect neighborhoods:
+-1.7387235958801706
+
+Threshold for the incorrect neighborhoods:
+0.5373432629045418
+
+Optimal threshold for the deviation:
+0.18131690123505184
+
+False negatives:
+249
+False positives:
+262
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =5 q = 9
+Mean score of the correct neighborhoods:
+1.9894205065375559
+
+Threshold for the correct neighborhoods:
+-0.1537256961974256
+Mean score of the incorrect neighborhoods:
+-1.7640663818069513
+
+Threshold for the incorrect neighborhoods:
+0.4970973802284411
+
+Optimal threshold for the deviation:
+0.17168584201550774
+
+False negatives:
+244
+False positives:
+263
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =6 q = 1
+Mean score of the correct neighborhoods:
+1.4030474413975953
+
+Threshold for the correct neighborhoods:
+-0.3557219176582429
+Mean score of the incorrect neighborhoods:
+-1.5540974039903857
+
+Threshold for the incorrect neighborhoods:
+0.33907583260188967
+
+Optimal threshold for the deviation:
+-0.008323042528176616
+
+False negatives:
+234
+False positives:
+279
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =6 q = 2
+Mean score of the correct neighborhoods:
+1.6745817353561874
+
+Threshold for the correct neighborhoods:
+-0.2606251289020862
+Mean score of the incorrect neighborhoods:
+-1.568213276693902
+
+Threshold for the incorrect neighborhoods:
+0.5892903923776109
+
+Optimal threshold for the deviation:
+0.16433263173776236
+
+False negatives:
+277
+False positives:
+263
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =6 q = 3
+Mean score of the correct neighborhoods:
+1.7684725770745393
+
+Threshold for the correct neighborhoods:
+-0.2314758771638481
+Mean score of the incorrect neighborhoods:
+-1.7211869101347637
+
+Threshold for the incorrect neighborhoods:
+0.40737965834500245
+
+Optimal threshold for the deviation:
+0.08795189059057718
+
+False negatives:
+248
+False positives:
+244
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =6 q = 4
+Mean score of the correct neighborhoods:
+1.8864862208965163
+
+Threshold for the correct neighborhoods:
+-0.17041996644491997
+Mean score of the incorrect neighborhoods:
+-1.8540795497284075
+
+Threshold for the incorrect neighborhoods:
+0.2832550436373349
+
+Optimal threshold for the deviation:
+0.05641753859620735
+
+False negatives:
+238
+False positives:
+230
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =6 q = 5
+Mean score of the correct neighborhoods:
+2.0000918476661496
+
+Threshold for the correct neighborhoods:
+-0.11513117775722259
+Mean score of the incorrect neighborhoods:
+-1.805374805017639
+
+Threshold for the incorrect neighborhoods:
+0.4276707300981213
+
+Optimal threshold for the deviation:
+0.15626977617044935
+
+False negatives:
+239
+False positives:
+238
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =6 q = 6
+Mean score of the correct neighborhoods:
+2.0844441444510635
+
+Threshold for the correct neighborhoods:
+-0.07775437338448477
+Mean score of the incorrect neighborhoods:
+-1.8264257133069024
+
+Threshold for the incorrect neighborhoods:
+0.5800198616238488
+
+Optimal threshold for the deviation:
+0.251132744119682
+
+False negatives:
+245
+False positives:
+225
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =6 q = 7
+Mean score of the correct neighborhoods:
+2.146975901138505
+
+Threshold for the correct neighborhoods:
+-0.052713669197791635
+Mean score of the incorrect neighborhoods:
+-1.7825924869492404
+
+Threshold for the incorrect neighborhoods:
+0.5829749074118606
+
+Optimal threshold for the deviation:
+0.2651306191070345
+
+False negatives:
+241
+False positives:
+249
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =6 q = 8
+Mean score of the correct neighborhoods:
+2.205520048994825
+
+Threshold for the correct neighborhoods:
+-0.0294482839783079
+Mean score of the incorrect neighborhoods:
+-1.684138282536627
+
+Threshold for the incorrect neighborhoods:
+0.7030183209692336
+
+Optimal threshold for the deviation:
+0.33678501849546283
+
+False negatives:
+244
+False positives:
+239
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =6 q = 9
+Mean score of the correct neighborhoods:
+2.256870498530511
+
+Threshold for the correct neighborhoods:
+-0.005609269856001298
+Mean score of the incorrect neighborhoods:
+-1.7361081169801635
+
+Threshold for the incorrect neighborhoods:
+0.7101587676040912
+
+Optimal threshold for the deviation:
+0.352274748874045
+
+False negatives:
+237
+False positives:
+260
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =7 q = 1
+Mean score of the correct neighborhoods:
+1.642526620003656
+
+Threshold for the correct neighborhoods:
+-0.27402381161629363
+Mean score of the incorrect neighborhoods:
+-1.615036590818675
+
+Threshold for the incorrect neighborhoods:
+0.5085135247482897
+
+Optimal threshold for the deviation:
+0.11724485656599803
+
+False negatives:
+251
+False positives:
+294
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =7 q = 2
+Mean score of the correct neighborhoods:
+1.9422770729567183
+
+Threshold for the correct neighborhoods:
+-0.17178568979439746
+Mean score of the incorrect neighborhoods:
+-1.6458554416512505
+
+Threshold for the incorrect neighborhoods:
+0.6423782736179355
+
+Optimal threshold for the deviation:
+0.23529629191176904
+
+False negatives:
+249
+False positives:
+265
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =7 q = 3
+Mean score of the correct neighborhoods:
+2.040120919665861
+
+Threshold for the correct neighborhoods:
+-0.13904739303517655
+Mean score of the incorrect neighborhoods:
+-1.8141504500867194
+
+Threshold for the incorrect neighborhoods:
+0.4135447232589462
+
+Optimal threshold for the deviation:
+0.13724866511188483
+
+False negatives:
+233
+False positives:
+238
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =7 q = 4
+Mean score of the correct neighborhoods:
+2.1750853619301402
+
+Threshold for the correct neighborhoods:
+-0.06610095095921231
+Mean score of the incorrect neighborhoods:
+-1.8350757655913226
+
+Threshold for the incorrect neighborhoods:
+0.5055611689691224
+
+Optimal threshold for the deviation:
+0.21973010900495504
+
+False negatives:
+238
+False positives:
+240
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =7 q = 5
+Mean score of the correct neighborhoods:
+2.3037120108914055
+
+Threshold for the correct neighborhoods:
+-0.014587166579598687
+Mean score of the incorrect neighborhoods:
+-1.8185289132615898
+
+Threshold for the incorrect neighborhoods:
+0.6601396774171262
+
+Optimal threshold for the deviation:
+0.32277625541876376
+
+False negatives:
+237
+False positives:
+237
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =7 q = 6
+Mean score of the correct neighborhoods:
+2.398276889657703
+
+Threshold for the correct neighborhoods:
+0.03375103967046433
+Mean score of the incorrect neighborhoods:
+-1.8631354990331166
+
+Threshold for the incorrect neighborhoods:
+0.669702387850305
+
+Optimal threshold for the deviation:
+0.35172671376038467
+
+False negatives:
+244
+False positives:
+248
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =7 q = 7
+Mean score of the correct neighborhoods:
+2.467459163913817
+
+Threshold for the correct neighborhoods:
+0.05818566637234035
+Mean score of the incorrect neighborhoods:
+-1.676939720708634
+
+Threshold for the incorrect neighborhoods:
+0.8309095960215456
+
+Optimal threshold for the deviation:
+0.44454763119694296
+
+False negatives:
+248
+False positives:
+246
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =7 q = 8
+Mean score of the correct neighborhoods:
+2.5320289855698452
+
+Threshold for the correct neighborhoods:
+0.08965731385399556
+Mean score of the incorrect neighborhoods:
+-1.626484818257937
+
+Threshold for the incorrect neighborhoods:
+1.0147850483474437
+
+Optimal threshold for the deviation:
+0.5522211811007196
+
+False negatives:
+254
+False positives:
+263
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =7 q = 9
+Mean score of the correct neighborhoods:
+2.589543170389204
+
+Threshold for the correct neighborhoods:
+0.12267150858003628
+Mean score of the incorrect neighborhoods:
+-1.5908974554503956
+
+Threshold for the incorrect neighborhoods:
+1.0026895201007138
+
+Optimal threshold for the deviation:
+0.562680514340375
+
+False negatives:
+247
+False positives:
+265
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =8 q = 1
+Mean score of the correct neighborhoods:
+1.8494579776100908
+
+Threshold for the correct neighborhoods:
+-0.17266141044620342
+Mean score of the incorrect neighborhoods:
+-1.562172238310663
+
+Threshold for the incorrect neighborhoods:
+0.6740954141629953
+
+Optimal threshold for the deviation:
+0.25071700185839596
+
+False negatives:
+255
+False positives:
+269
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =8 q = 2
+Mean score of the correct neighborhoods:
+2.1846507672155897
+
+Threshold for the correct neighborhoods:
+-0.047695601534344156
+Mean score of the incorrect neighborhoods:
+-1.733936840890508
+
+Threshold for the incorrect neighborhoods:
+0.6960949125884663
+
+Optimal threshold for the deviation:
+0.3241996555270611
+
+False negatives:
+248
+False positives:
+252
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =8 q = 3
+Mean score of the correct neighborhoods:
+2.294269297987827
+
+Threshold for the correct neighborhoods:
+-0.0001556902215993361
+Mean score of the incorrect neighborhoods:
+-1.7878435203493965
+
+Threshold for the incorrect neighborhoods:
+0.6099768620004205
+
+Optimal threshold for the deviation:
+0.30491058588941056
+
+False negatives:
+221
+False positives:
+230
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =8 q = 4
+Mean score of the correct neighborhoods:
+2.4503214629892613
+
+Threshold for the correct neighborhoods:
+0.08622063686255688
+Mean score of the incorrect neighborhoods:
+-1.842524366472096
+
+Threshold for the incorrect neighborhoods:
+0.6418100719629602
+
+Optimal threshold for the deviation:
+0.36401535441275856
+
+False negatives:
+227
+False positives:
+229
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =8 q = 5
+Mean score of the correct neighborhoods:
+2.5988410022504076
+
+Threshold for the correct neighborhoods:
+0.1454425072346499
+Mean score of the incorrect neighborhoods:
+-1.8753305157370244
+
+Threshold for the incorrect neighborhoods:
+0.6118776506974062
+
+Optimal threshold for the deviation:
+0.37866007896602805
+
+False negatives:
+218
+False positives:
+242
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =8 q = 6
+Mean score of the correct neighborhoods:
+2.708289482948625
+
+Threshold for the correct neighborhoods:
+0.20017301884365502
+Mean score of the incorrect neighborhoods:
+-1.720546772164876
+
+Threshold for the incorrect neighborhoods:
+1.0075098582149729
+
+Optimal threshold for the deviation:
+0.6038414385293139
+
+False negatives:
+237
+False positives:
+238
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =8 q = 7
+Mean score of the correct neighborhoods:
+2.788749518058112
+
+Threshold for the correct neighborhoods:
+0.22931493413506532
+Mean score of the incorrect neighborhoods:
+-1.6147376290593691
+
+Threshold for the incorrect neighborhoods:
+1.0617368158526006
+
+Optimal threshold for the deviation:
+0.645525874993833
+
+False negatives:
+232
+False positives:
+240
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =8 q = 8
+Mean score of the correct neighborhoods:
+2.8633458043066375
+
+Threshold for the correct neighborhoods:
+0.271787052057312
+Mean score of the incorrect neighborhoods:
+-1.6115514514086422
+
+Threshold for the incorrect neighborhoods:
+1.1314854707982265
+
+Optimal threshold for the deviation:
+0.7016362614277692
+
+False negatives:
+234
+False positives:
+259
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =8 q = 9
+Mean score of the correct neighborhoods:
+2.9301917054777435
+
+Threshold for the correct neighborhoods:
+0.3109093300497494
+Mean score of the incorrect neighborhoods:
+-1.5185568871082802
+
+Threshold for the incorrect neighborhoods:
+1.288948450470979
+
+Optimal threshold for the deviation:
+0.7999288902603642
+
+False negatives:
+239
+False positives:
+254
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =9 q = 1
+Mean score of the correct neighborhoods:
+2.0441728242222563
+
+Threshold for the correct neighborhoods:
+-0.09998893886001525
+Mean score of the incorrect neighborhoods:
+-1.6910265868767673
+
+Threshold for the incorrect neighborhoods:
+0.5885269545219132
+
+Optimal threshold for the deviation:
+0.24426900783094896
+
+False negatives:
+233
+False positives:
+255
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =9 q = 2
+Mean score of the correct neighborhoods:
+2.415538741149829
+
+Threshold for the correct neighborhoods:
+0.048316301874067324
+Mean score of the incorrect neighborhoods:
+-1.7416705477361192
+
+Threshold for the incorrect neighborhoods:
+0.826969763659894
+
+Optimal threshold for the deviation:
+0.4376430327669807
+
+False negatives:
+237
+False positives:
+255
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =9 q = 3
+Mean score of the correct neighborhoods:
+2.5414863780974795
+
+Threshold for the correct neighborhoods:
+0.09922348458341324
+Mean score of the incorrect neighborhoods:
+-1.843497151984783
+
+Threshold for the incorrect neighborhoods:
+0.7167944172513445
+
+Optimal threshold for the deviation:
+0.4080089509173789
+
+False negatives:
+220
+False positives:
+228
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =9 q = 4
+Mean score of the correct neighborhoods:
+2.723195253212776
+
+Threshold for the correct neighborhoods:
+0.20704152827433564
+Mean score of the incorrect neighborhoods:
+-1.8118999883260232
+
+Threshold for the incorrect neighborhoods:
+0.8580316324632662
+
+Optimal threshold for the deviation:
+0.5325365803688009
+
+False negatives:
+219
+False positives:
+227
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =9 q = 5
+Mean score of the correct neighborhoods:
+2.8954566473998495
+
+Threshold for the correct neighborhoods:
+0.28747237712281226
+Mean score of the incorrect neighborhoods:
+-1.8715710055006818
+
+Threshold for the incorrect neighborhoods:
+0.8697118549355631
+
+Optimal threshold for the deviation:
+0.5785921160291877
+
+False negatives:
+206
+False positives:
+228
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =9 q = 6
+Mean score of the correct neighborhoods:
+3.023269073705367
+
+Threshold for the correct neighborhoods:
+0.3560086707357626
+Mean score of the incorrect neighborhoods:
+-1.8314259993733217
+
+Threshold for the incorrect neighborhoods:
+0.9505950913938315
+
+Optimal threshold for the deviation:
+0.653301881064797
+
+False negatives:
+215
+False positives:
+237
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =9 q = 7
+Mean score of the correct neighborhoods:
+3.1180824221411942
+
+Threshold for the correct neighborhoods:
+0.3919105094576327
+Mean score of the incorrect neighborhoods:
+-1.6140368906278277
+
+Threshold for the incorrect neighborhoods:
+1.2739485770420924
+
+Optimal threshold for the deviation:
+0.8329295432498626
+
+False negatives:
+227
+False positives:
+253
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =9 q = 8
+Mean score of the correct neighborhoods:
+3.2063263839314313
+
+Threshold for the correct neighborhoods:
+0.4456302304758677
+Mean score of the incorrect neighborhoods:
+-1.5643600064133834
+
+Threshold for the incorrect neighborhoods:
+1.3629134956658309
+
+Optimal threshold for the deviation:
+0.9042718630708493
+
+False negatives:
+228
+False positives:
+248
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =9 q = 9
+Mean score of the correct neighborhoods:
+3.285496841703898
+
+Threshold for the correct neighborhoods:
+0.49278397456001777
+Mean score of the incorrect neighborhoods:
+-1.5921487866367814
+
+Threshold for the incorrect neighborhoods:
+1.367726868931134
+
+Optimal threshold for the deviation:
+0.9302554217455759
+
+False negatives:
+224
+False positives:
+244
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =10 q = 1
+Mean score of the correct neighborhoods:
+2.2581488550463686
+
+Threshold for the correct neighborhoods:
+0.023686799717653972
+Mean score of the incorrect neighborhoods:
+-1.7970233999739813
+
+Threshold for the incorrect neighborhoods:
+0.5735791734215931
+
+Optimal threshold for the deviation:
+0.29863298656962356
+
+False negatives:
+215
+False positives:
+239
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =10 q = 2
+Mean score of the correct neighborhoods:
+2.6650894914968557
+
+Threshold for the correct neighborhoods:
+0.19885068299798592
+Mean score of the incorrect neighborhoods:
+-1.8519017915260358
+
+Threshold for the incorrect neighborhoods:
+0.8509912579150904
+
+Optimal threshold for the deviation:
+0.5249209704565382
+
+False negatives:
+234
+False positives:
+238
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =10 q = 3
+Mean score of the correct neighborhoods:
+2.8079044174864074
+
+Threshold for the correct neighborhoods:
+0.2567548170219447
+Mean score of the incorrect neighborhoods:
+-1.7335943208430942
+
+Threshold for the incorrect neighborhoods:
+1.029458196230035
+
+Optimal threshold for the deviation:
+0.6431065066259899
+
+False negatives:
+228
+False positives:
+255
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =10 q = 4
+Mean score of the correct neighborhoods:
+3.0149705229187655
+
+Threshold for the correct neighborhoods:
+0.38414756486498236
+Mean score of the incorrect neighborhoods:
+-1.9021100978683863
+
+Threshold for the incorrect neighborhoods:
+0.8910000263870401
+
+Optimal threshold for the deviation:
+0.6375737956260112
+
+False negatives:
+215
+False positives:
+213
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =10 q = 5
+Mean score of the correct neighborhoods:
+3.2108110067472997
+
+Threshold for the correct neighborhoods:
+0.4771981338560418
+Mean score of the incorrect neighborhoods:
+-1.9248760316778648
+
+Threshold for the incorrect neighborhoods:
+1.0174652030450926
+
+Optimal threshold for the deviation:
+0.7473316684505672
+
+False negatives:
+219
+False positives:
+230
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =10 q = 6
+Mean score of the correct neighborhoods:
+3.3571177987643392
+
+Threshold for the correct neighborhoods:
+0.5626983554473068
+Mean score of the incorrect neighborhoods:
+-1.8212831783128343
+
+Threshold for the incorrect neighborhoods:
+1.1543994797997803
+
+Optimal threshold for the deviation:
+0.8585489176235436
+
+False negatives:
+224
+False positives:
+227
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =10 q = 7
+Mean score of the correct neighborhoods:
+3.466764075791163
+
+Threshold for the correct neighborhoods:
+0.6006041012660122
+Mean score of the incorrect neighborhoods:
+-1.6241164906185381
+
+Threshold for the incorrect neighborhoods:
+1.5421475017947741
+
+Optimal threshold for the deviation:
+1.0713758015303931
+
+False negatives:
+235
+False positives:
+251
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =10 q = 8
+Mean score of the correct neighborhoods:
+3.569119843492294
+
+Threshold for the correct neighborhoods:
+0.6640258301376423
+Mean score of the incorrect neighborhoods:
+-1.4575995351149336
+
+Threshold for the incorrect neighborhoods:
+1.732963795309116
+
+Optimal threshold for the deviation:
+1.198494812723379
+
+False negatives:
+232
+False positives:
+232
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =10 q = 9
+Mean score of the correct neighborhoods:
+3.6612448255086005
+
+Threshold for the correct neighborhoods:
+0.721227806681104
+Mean score of the incorrect neighborhoods:
+-1.5632822742471044
+
+Threshold for the incorrect neighborhoods:
+1.5912902795932824
+
+Optimal threshold for the deviation:
+1.1562590431371933
+
+False negatives:
+228
+False positives:
+240
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =11 q = 1
+Mean score of the correct neighborhoods:
+2.4448825109633323
+
+Threshold for the correct neighborhoods:
+0.1251991671571222
+Mean score of the incorrect neighborhoods:
+-1.6984548958966383
+
+Threshold for the incorrect neighborhoods:
+0.8765779976297441
+
+Optimal threshold for the deviation:
+0.5008885823934331
+
+False negatives:
+235
+False positives:
+246
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =11 q = 2
+Mean score of the correct neighborhoods:
+2.8817869333201602
+
+Threshold for the correct neighborhoods:
+0.3208187859470053
+Mean score of the incorrect neighborhoods:
+-1.72419072504752
+
+Threshold for the incorrect neighborhoods:
+1.0759430642794992
+
+Optimal threshold for the deviation:
+0.6983809251132522
+
+False negatives:
+239
+False positives:
+235
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =11 q = 3
+Mean score of the correct neighborhoods:
+3.039035014316424
+
+Threshold for the correct neighborhoods:
+0.3797679289592901
+Mean score of the incorrect neighborhoods:
+-1.7682581385621157
+
+Threshold for the incorrect neighborhoods:
+1.1034301943211025
+
+Optimal threshold for the deviation:
+0.7415990616401963
+
+False negatives:
+224
+False positives:
+243
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =11 q = 4
+Mean score of the correct neighborhoods:
+3.2689129926960785
+
+Threshold for the correct neighborhoods:
+0.5228993559437645
+Mean score of the incorrect neighborhoods:
+-1.755626336581747
+
+Threshold for the incorrect neighborhoods:
+1.2159304294806075
+
+Optimal threshold for the deviation:
+0.869414892712186
+
+False negatives:
+223
+False positives:
+235
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =11 q = 5
+Mean score of the correct neighborhoods:
+3.4863795408057325
+
+Threshold for the correct neighborhoods:
+0.6319275335514005
+Mean score of the incorrect neighborhoods:
+-1.8279869334222147
+
+Threshold for the incorrect neighborhoods:
+1.2118366027092469
+
+Optimal threshold for the deviation:
+0.9218820681303237
+
+False negatives:
+214
+False positives:
+220
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =11 q = 6
+Mean score of the correct neighborhoods:
+3.6495419907475206
+
+Threshold for the correct neighborhoods:
+0.7296738946486809
+Mean score of the incorrect neighborhoods:
+-1.5541803628406599
+
+Threshold for the incorrect neighborhoods:
+1.6114575132761306
+
+Optimal threshold for the deviation:
+1.1705657039624058
+
+False negatives:
+229
+False positives:
+228
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =11 q = 7
+Mean score of the correct neighborhoods:
+3.773178268082414
+
+Threshold for the correct neighborhoods:
+0.7765951991083715
+Mean score of the incorrect neighborhoods:
+-1.536348732374481
+
+Threshold for the incorrect neighborhoods:
+1.7322059372217267
+
+Optimal threshold for the deviation:
+1.2544005681650492
+
+False negatives:
+227
+False positives:
+245
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =11 q = 8
+Mean score of the correct neighborhoods:
+3.8888791614063947
+
+Threshold for the correct neighborhoods:
+0.8540430976951909
+Mean score of the incorrect neighborhoods:
+-1.4924230103817164
+
+Threshold for the incorrect neighborhoods:
+1.7629693634936987
+
+Optimal threshold for the deviation:
+1.3085062305944448
+
+False negatives:
+216
+False positives:
+241
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =11 q = 9
+Mean score of the correct neighborhoods:
+3.9931424089543426
+
+Threshold for the correct neighborhoods:
+0.9201830246239462
+Mean score of the incorrect neighborhoods:
+-1.376508126718894
+
+Threshold for the incorrect neighborhoods:
+1.9148536693211164
+
+Optimal threshold for the deviation:
+1.4175183469725314
+
+False negatives:
+231
+False positives:
+236
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =12 q = 1
+Mean score of the correct neighborhoods:
+2.608380291767662
+
+Threshold for the correct neighborhoods:
+0.20748884828662773
+Mean score of the incorrect neighborhoods:
+-1.6395966377214308
+
+Threshold for the incorrect neighborhoods:
+1.0241420653232511
+
+Optimal threshold for the deviation:
+0.6158154568049394
+
+False negatives:
+228
+False positives:
+252
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =12 q = 2
+Mean score of the correct neighborhoods:
+3.076504508866272
+
+Threshold for the correct neighborhoods:
+0.4248655349324757
+Mean score of the incorrect neighborhoods:
+-1.7340491993134413
+
+Threshold for the incorrect neighborhoods:
+1.2204242570590675
+
+Optimal threshold for the deviation:
+0.8226448959957716
+
+False negatives:
+235
+False positives:
+234
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =12 q = 3
+Mean score of the correct neighborhoods:
+3.250211297759692
+
+Threshold for the correct neighborhoods:
+0.4947011672521242
+Mean score of the incorrect neighborhoods:
+-1.8847996264157876
+
+Threshold for the incorrect neighborhoods:
+1.0821619548388213
+
+Optimal threshold for the deviation:
+0.7884315610454727
+
+False negatives:
+220
+False positives:
+216
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =12 q = 4
+Mean score of the correct neighborhoods:
+3.503580528869236
+
+Threshold for the correct neighborhoods:
+0.6569404774291656
+Mean score of the incorrect neighborhoods:
+-1.8599994732466614
+
+Threshold for the incorrect neighborhoods:
+1.2963580366363223
+
+Optimal threshold for the deviation:
+0.976649257032744
+
+False negatives:
+220
+False positives:
+230
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =12 q = 5
+Mean score of the correct neighborhoods:
+3.7435887815152684
+
+Threshold for the correct neighborhoods:
+0.7719933079897303
+Mean score of the incorrect neighborhoods:
+-1.7978355513162774
+
+Threshold for the incorrect neighborhoods:
+1.528459821582253
+
+Optimal threshold for the deviation:
+1.1502265647859917
+
+False negatives:
+219
+False positives:
+225
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =12 q = 6
+Mean score of the correct neighborhoods:
+3.9248272727877205
+
+Threshold for the correct neighborhoods:
+0.8816001874613648
+Mean score of the incorrect neighborhoods:
+-1.6400685619262325
+
+Threshold for the incorrect neighborhoods:
+1.5850321008704973
+
+Optimal threshold for the deviation:
+1.233316144165931
+
+False negatives:
+219
+False positives:
+216
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =12 q = 7
+Mean score of the correct neighborhoods:
+4.063794029183549
+
+Threshold for the correct neighborhoods:
+0.9374254902087684
+Mean score of the incorrect neighborhoods:
+-1.4554608693864324
+
+Threshold for the incorrect neighborhoods:
+1.8854543332748548
+
+Optimal threshold for the deviation:
+1.4114399117418115
+
+False negatives:
+230
+False positives:
+233
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =12 q = 8
+Mean score of the correct neighborhoods:
+4.194207770902313
+
+Threshold for the correct neighborhoods:
+1.0260171957936763
+Mean score of the incorrect neighborhoods:
+-1.3199921132184598
+
+Threshold for the incorrect neighborhoods:
+2.069436698626788
+
+Optimal threshold for the deviation:
+1.5477269472102324
+
+False negatives:
+224
+False positives:
+249
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =12 q = 9
+Mean score of the correct neighborhoods:
+4.311754557974823
+
+Threshold for the correct neighborhoods:
+1.1062637665088784
+Mean score of the incorrect neighborhoods:
+-1.1574962312087675
+
+Threshold for the incorrect neighborhoods:
+2.2861204488612232
+
+Optimal threshold for the deviation:
+1.696192107685051
+
+False negatives:
+238
+False positives:
+258
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =13 q = 1
+Mean score of the correct neighborhoods:
+2.7233264363817256
+
+Threshold for the correct neighborhoods:
+0.2534312104388601
+Mean score of the incorrect neighborhoods:
+-1.6618096003167089
+
+Threshold for the incorrect neighborhoods:
+1.0643074757359459
+
+Optimal threshold for the deviation:
+0.658869343087403
+
+False negatives:
+236
+False positives:
+252
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =13 q = 2
+Mean score of the correct neighborhoods:
+3.2162682210182796
+
+Threshold for the correct neighborhoods:
+0.48905280685865415
+Mean score of the incorrect neighborhoods:
+-1.7031211495953869
+
+Threshold for the incorrect neighborhoods:
+1.2840941407960516
+
+Optimal threshold for the deviation:
+0.8865734738273529
+
+False negatives:
+238
+False positives:
+233
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =13 q = 3
+Mean score of the correct neighborhoods:
+3.4034601632691217
+
+Threshold for the correct neighborhoods:
+0.5672330743090876
+Mean score of the incorrect neighborhoods:
+-1.6635840464848668
+
+Threshold for the incorrect neighborhoods:
+1.4832471300266072
+
+Optimal threshold for the deviation:
+1.0252401021678474
+
+False negatives:
+229
+False positives:
+239
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =13 q = 4
+Mean score of the correct neighborhoods:
+3.6758237902328688
+
+Threshold for the correct neighborhoods:
+0.7509014689417626
+Mean score of the incorrect neighborhoods:
+-1.6505044473607553
+
+Threshold for the incorrect neighborhoods:
+1.5663001444821307
+
+Optimal threshold for the deviation:
+1.1586008067119467
+
+False negatives:
+222
+False positives:
+245
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =13 q = 5
+Mean score of the correct neighborhoods:
+3.9342763314176725
+
+Threshold for the correct neighborhoods:
+0.8790283540018495
+Mean score of the incorrect neighborhoods:
+-1.5349079220488933
+
+Threshold for the incorrect neighborhoods:
+1.8829041113616083
+
+Optimal threshold for the deviation:
+1.380966232681729
+
+False negatives:
+222
+False positives:
+232
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =13 q = 6
+Mean score of the correct neighborhoods:
+4.13086081121375
+
+Threshold for the correct neighborhoods:
+1.0011602671524478
+Mean score of the incorrect neighborhoods:
+-1.4868247356499757
+
+Threshold for the incorrect neighborhoods:
+1.8106068899136372
+
+Optimal threshold for the deviation:
+1.4058835785330426
+
+False negatives:
+220
+False positives:
+229
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =13 q = 7
+Mean score of the correct neighborhoods:
+4.282629317047501
+
+Threshold for the correct neighborhoods:
+1.0637812104722206
+Mean score of the incorrect neighborhoods:
+-1.3584789122490226
+
+Threshold for the incorrect neighborhoods:
+2.1392137734609262
+
+Optimal threshold for the deviation:
+1.6014974919665734
+
+False negatives:
+227
+False positives:
+228
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =13 q = 8
+Mean score of the correct neighborhoods:
+4.425303266551686
+
+Threshold for the correct neighborhoods:
+1.16552714726433
+Mean score of the incorrect neighborhoods:
+-1.3970553600890636
+
+Threshold for the incorrect neighborhoods:
+2.1215859643736295
+
+Optimal threshold for the deviation:
+1.6435565558189795
+
+False negatives:
+220
+False positives:
+244
+END OF RESULTS
+
+
+###     RESULTS :#####
+
+Parameters of the model:
+p =13 q = 9
+Mean score of the correct neighborhoods:
+4.5543464005851355
+
+Threshold for the correct neighborhoods:
+1.2571943033386002
+Mean score of the incorrect neighborhoods:
+-1.238322587386115
+
+Threshold for the incorrect neighborhoods:
+2.4228634632910877
+
+Optimal threshold for the deviation:
+1.840028883314844
+
+False negatives:
+224
+False positives:
+243
+END OF RESULTS
+
+
