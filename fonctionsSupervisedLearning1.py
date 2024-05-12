@@ -52,11 +52,9 @@ def vector_to_word(vec):
 def convert_df_to_vectors(df):
     '''
     Convert the dataframe to a format that can be used for training a classifier
-    add a column 'Annotation_pos' that contains the position of the cleavage site
     add a column 'P_Structure_vector' that contains the primary structure as a vector
     '''
     df_exploitable = df.copy()
-    df_exploitable['Annotation_pos'] = df_exploitable['Annotation'].apply(lambda x: x.find('C'))
     df_exploitable['P_Structure_vector'] = df_exploitable['Primary Structure'].apply(word_to_vector)
     return df_exploitable
 
@@ -172,18 +170,26 @@ def create_model(n, df_exploitable, random_state=42, nb_letters = 26, kernel_in 
 
     '''
     X_train, X_test, pos_train, pos_test = test_train_split_random_pos(df_exploitable, n, random_state=random_state)
+    
     in_train = ~np.isnan(pos_train)
     in_test = ~np.isnan(pos_test)
-    svm_model_in = svm.SVC(kernel=kernel_in, C=C_in, random_state=random_state)
-    svm_model_pos = svm.SVC(kernel=kernel_pos, C=C_pos, random_state=random_state)
+
+    svm_model_in = svm.SVC(kernel=kernel_in, C=C_in, random_state=random_state, class_weight='balanced', gamma='scale')
+    svm_model_pos = svm.SVC(kernel=kernel_pos, C=C_pos, random_state=random_state, class_weight='balanced', gamma='scale')
+    
     svm_model_in.fit(X_train, in_train)
     in_pred = svm_model_in.predict(X_test)
+    
     accuracy_in = accuracy_score(in_test, in_pred)
+    
     X_in_train = X_train[in_train==1]
     pos_train = pos_train[~np.isnan(pos_train)]
+    
     svm_model_pos.fit(X_in_train, pos_train)
     pos_pred = svm_model_pos.predict(X_test[in_test==1])
+    
     accuracy_pos = accuracy_score(pos_test[in_test==1], pos_pred)
+    
     return svm_model_in, svm_model_pos, accuracy_in, accuracy_pos
     
 
@@ -212,3 +218,17 @@ def test_models(n, df_exploitable, svm_model_in, svm_model_pos, random_state=42,
     pos_pred = svm_model_pos.predict(X_test[in_test==1])
     accuracy_pos = accuracy_score(pos_test[in_test==1], pos_pred)
     return accuracy_in, accuracy_pos
+
+def find_cleavage2(X, model, p=13, q = 2, nb_letters = 26):
+    n = p+q
+    positions = []
+    for i in range(0, len(X)- n*nb_letters, nb_letters):
+        test_sub = X[i:i + n*nb_letters]
+        
+        if model.predict(np.array([test_sub])):
+            position = p+i//26
+            positions.append(position)
+    return positions
+
+        
+    
