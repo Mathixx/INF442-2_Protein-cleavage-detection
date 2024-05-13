@@ -13,20 +13,20 @@ import joblib
 model_paths = {
     'rbf': 'data/models/best_svm_rbf.pkl',
     'blosum': 'data/models/best_svm_model_accuracy_BLOSUM.pkl',
-    'scalar': 'data/models/best_svm_model_accuracy_scalar.pkl',
-    'probabilistic': 'data/models/best_svm_model_accuracy_PROBApkl'}
+    'poly': 'data/models/best_svm_model_accuracy_scalar.pkl',
+    'probabilistic': 'data/models/best_svm_proba.pkl'}
 
 models_p = {
     'rbf': 13,
     'blosum': 13,
-    'scalar': 13,
-    'probabilistic': 13
+    'poly': 13,
+    'probabilistic': 9
 }
 
 models_q = {
     'rbf': 2,
     'blosum': 2,
-    'scalar': 2,
+    'poly': 2,
     'probabilistic': 2
 }
 

@@ -53,8 +53,8 @@ def run_svm_analysis():
     X_train, X_test, bool_train, bool_test = fk.test_train_split_random_pos_proba(data,n)
        # Define parameter grid
     param_grid = {
-        'C': [0.01,0.05,0.1],  # Example C values
-        'kernel': ['rbf'],  # Example kernels
+        'C': [1],  # Example C values
+        'kernel': [fk.ProbabilisticKernel],  # Example kernels
         # 'kernel' : [fk.RBF_kernelBLOSUM, fk.RBF_kernelPAM]
     }
 

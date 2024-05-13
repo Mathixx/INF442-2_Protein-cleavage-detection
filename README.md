@@ -20,8 +20,11 @@ To use the different models we fitted and selected :
     Here are the following lengths :
         - BLOSUM Model -> p = 13, q = 2 , n = 15
         - Probabilistic Model -> p = 9, q = 2, n = 11
-        - Model using the scalar product -> p = 13, q = 2, n = 15
+        - Model using the scalar product with poly -> p = 13, q = 2, n = 15
+        - Model using the scalar product with poly -> p = 13, q = 2, n = 15
 
 ## Usage
+
+
 
 
