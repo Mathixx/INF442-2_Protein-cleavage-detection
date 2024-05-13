@@ -53,9 +53,9 @@ def run_svm_analysis():
     X_train, X_test, bool_train, bool_test = fk.test_train_split_random_pos_proba(data,n)
        # Define parameter grid
     param_grid = {
-        'C': [0.01,0.05,0.1],  # Example C values
-        'kernel': ['rbf'],  # Example kernels
-        # 'kernel' : [fk.RBF_kernelBLOSUM, fk.RBF_kernelPAM, fk.ProbabilisticKernel]
+        'C': [0.3],  # Example C values
+        # 'kernel': ['rbf'],  # Example kernels
+        'kernel' : [fk.RBF_kernelBLOSUM]
     }
 
     # Setup the SVM classifier with GridSearchCV
@@ -91,7 +91,7 @@ def run_svm_analysis():
     plt.close()
 
     # Save the best model
-    joblib.dump(best_model, 'data/models/best_svm_rbf.pkl')
+    joblib.dump(best_model, 'data/models/svm_blosum.pkl')
     print(f"Best Model Saved with AUC: {roc_auc}, Time to Run: {end - start}s")
     with open("data/accuracy.txt", "w") as f:
         f.write(f"Best Model Saved with AUC: {roc_auc}, Time to Run: {end - start}s")

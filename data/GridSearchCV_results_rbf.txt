@@ -1,8 +1,8 @@
-Best parameters found: {'C': 1, 'kernel': <function ProbabilisticKernel at 0x16e5e82c0>}
+Best parameters found: {'C': 0.3, 'kernel': <function RBF_kernelBLOSUM at 0x7fe60c90c550>}
 GridSearchCV results:
-Configuration 1: {'C': 1, 'kernel': <function ProbabilisticKernel at 0x16e5e82c0>}
-Mean train score: 1.0
-Mean test score: 0.7362281219272371
-score time: 33.935828351974486
+Configuration 1: {'C': 0.3, 'kernel': <function RBF_kernelBLOSUM at 0x7fe60c90c550>}
+Mean train score: 0.9391646318904922
+Mean test score: 0.8578957718780729
+score time: 245.17465190887452
 
-best params accuracy on X_test :0.7624113475177305
+best params accuracy on X_test :0.8652482269503546
