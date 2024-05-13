@@ -54,7 +54,7 @@ def run_svm_analysis():
        # Define parameter grid
     param_grid = {
         'C': [0.01,0.05,0.1],  # Example C values
-        'kernel': [fk.ProbabilisticKernel],  # Example kernels
+        'kernel': ['rbf'],  # Example kernels
         # 'kernel' : [fk.RBF_kernelBLOSUM, fk.RBF_kernelPAM, fk.ProbabilisticKernel]
     }
 
