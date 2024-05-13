@@ -23,7 +23,30 @@ To use the different models we fitted and selected :
         - Model using the scalar product with poly -> p = 13, q = 2, n = 15
         - Model using the scalar product with poly -> p = 13, q = 2, n = 15
 
-## Usage
+## Predict Cleavage Sites with SVM Models
+predict_cleavage.py
+This Python script predicts protein cleavage sites using pre-trained SVM models with various kernels (RBF, BLOSUM, scalar, probabilistic). Input can be a sequence string or a file path to a dataset with multiple sequences.
+
+    Models and Paths:
+        rbf: data/models/best_svm_rbf.pkl
+        blosum: data/models/best_svm_model_accuracy_BLOSUM.pkl
+        scalar: data/models/best_svm_model_accuracy_scalar.pkl
+        probabilistic: data/models/best_svm_model_accuracy_PROBA.pkl
+
+    Parameters:
+        p=13, q=2 for all models
+
+    Usage:
+        Run: python predict_cleavage.py <kernel> <sequence or file path>
+        Example: python predict_cleavage.py rbf "MAGTMAASSAAGLAGLGLAAG"
+
+    Output:
+        Displays the sequence with predicted cleavage sites in bold.
+        Writes accuracy, average number of predictions, and average distance to real cleavage sites to data/results/results_predict_cleavage.txt.
+
+
+## other files
+We used other files and notebooks to tune our parameters.
 
 
 

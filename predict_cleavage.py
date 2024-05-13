@@ -20,7 +20,7 @@ models_p = {
     'rbf': 13,
     'blosum': 13,
     'poly': 13,
-    'probabilistic': 9
+    'probabilistic': 13
 }
 
 models_q = {
