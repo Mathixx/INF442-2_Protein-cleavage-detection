@@ -17,10 +17,11 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import ParameterGrid
 import joblib 
 import fonctionskernel as fk
+import time
 
 
 # open model
-model = joblib.load("data/models/best_svm_model_accuracy2.pkl")
+model = joblib.load("data/models/best_svm_rbf.pkl")
 
 # open data
 data = pd.read_csv("data/df.csv")
@@ -36,6 +37,7 @@ pos = data['Cleavage_Site']
 
 # predict
 def main():
+    start = time.time()
     # find the cleavage for the whole dataset
     predictions = [fsl1.find_cleavage2(x, model) for x in X]
     
@@ -54,9 +56,16 @@ def main():
     #average distance to the real cleavage site, if pred is not empty
     flat_list = [abs(p - pos[i]) for i, x in enumerate(predictions) if x for p in x]
     avg_dist = sum(flat_list) / len(flat_list) if flat_list else 0
-    print("Average accuracy: ", accuracy)
-    print("Average number of predictions: ", avg_pred)
-    print("Average distance to the real cleavage site: ", avg_dist)
+    end = time.time()
+    
+    with open("data/results_sliding_rbf.txt", "a") as f:
+        f.write(f"Accuracy: {accuracy}\n")
+        f.write(f"Average number of predictions: {avg_pred}\n")
+        f.write(f"Average distance to the real cleavage site: {avg_dist}\n")
+        f.write("model: best_svm_model_matrix\n")
+        f.write("data: df.csv\n")
+        f.write(f"Time: {end-start}\n")
+        f.write("\n")
 
 
 

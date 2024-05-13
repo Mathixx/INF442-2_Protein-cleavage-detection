@@ -54,8 +54,8 @@ def run_svm_analysis():
        # Define parameter grid
     param_grid = {
         'C': [0.01,0.05,0.1],  # Example C values
-        # 'kernel': ['rbf'],  # Example kernels
-        'kernel' : [fk.RBF_kernelBLOSUM, fk.RBF_kernelPAM]
+        'kernel': ['rbf'],  # Example kernels
+        # 'kernel' : [fk.RBF_kernelBLOSUM, fk.RBF_kernelPAM]
     }
 
     # Setup the SVM classifier with GridSearchCV
@@ -87,17 +87,17 @@ def run_svm_analysis():
     plt.title(f'Receiver Operating Characteristic {best_model.kernel} {best_model.C}')
 
     plt.legend(loc="lower right")
-    plt.savefig('data/ROC_Curve_accuracy_matrix.png')
+    plt.savefig('data/ROC_Curve_accuracy_rbf.png')
     plt.close()
 
     # Save the best model
-    joblib.dump(best_model, 'data/models/best_svm_model_matrix.pkl')
+    joblib.dump(best_model, 'data/models/best_svm_rbf.pkl')
     print(f"Best Model Saved with AUC: {roc_auc}, Time to Run: {end - start}s")
     with open("data/accuracy.txt", "w") as f:
         f.write(f"Best Model Saved with AUC: {roc_auc}, Time to Run: {end - start}s")
 
     # Save GridSearchCV results to a text file
-    with open("data/GridSearchCV_results_accuracy2.txt", "w") as f:
+    with open("data/GridSearchCV_results_rbf.txt", "w") as f:
         f.write("Best parameters found: {}\n".format(grid_search.best_params_))
         f.write("GridSearchCV results:\n")
         for i, params in enumerate(grid_search.cv_results_['params']):
