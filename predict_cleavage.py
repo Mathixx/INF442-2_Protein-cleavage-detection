@@ -12,7 +12,7 @@ import joblib
 
 model_paths = {
     'rbf': 'data/models/best_svm_rbf.pkl',
-    'blosum': 'data/models/svm_blossum_0.1.pkl',
+    'blosum': 'data/models/best_svm_model_accuracy_BLOSUM.pkl',
     'poly': 'data/models/best_svm_model_accuracy_scalar.pkl',
     'probabilistic': 'data/models/best_svm_model_accuracy_PROBA.pkl'}
 
