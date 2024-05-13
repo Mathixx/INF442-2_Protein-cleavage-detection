@@ -1,0 +1,32 @@
+Best parameters found: {'C': 0.1, 'kernel': <function RBF_kernelBLOSUM at 0x7fcb93df9550>}
+GridSearchCV results:
+Configuration 1: {'C': 0.01, 'kernel': <function RBF_kernelBLOSUM at 0x7fcb93df9550>}
+Mean train score: 0.5204261931187568
+Mean test score: 0.520424778761062
+score time: 486.436211681366
+
+Configuration 2: {'C': 0.01, 'kernel': <function RBF_kernelPAM at 0x7fcb93df9700>}
+Mean train score: 0.5204261931187568
+Mean test score: 0.520424778761062
+score time: 484.76757917404177
+
+Configuration 3: {'C': 0.05, 'kernel': <function RBF_kernelBLOSUM at 0x7fcb93df9550>}
+Mean train score: 0.5204261931187568
+Mean test score: 0.520424778761062
+score time: 491.43353004455565
+
+Configuration 4: {'C': 0.05, 'kernel': <function RBF_kernelPAM at 0x7fcb93df9700>}
+Mean train score: 0.5204261931187568
+Mean test score: 0.520424778761062
+score time: 494.6044137954712
+
+Configuration 5: {'C': 0.1, 'kernel': <function RBF_kernelBLOSUM at 0x7fcb93df9550>}
+Mean train score: 0.8490168948082377
+Mean test score: 0.7788947885939036
+score time: 265.3809317111969
+
+Configuration 6: {'C': 0.1, 'kernel': <function RBF_kernelPAM at 0x7fcb93df9700>}
+Mean train score: 0.5204261931187568
+Mean test score: 0.520424778761062
+score time: 265.67843413352966
+

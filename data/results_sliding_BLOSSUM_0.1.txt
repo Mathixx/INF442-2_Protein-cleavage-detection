@@ -1,0 +1,7 @@
+Accuracy: 0.9
+Average number of predictions: 7.6
+Average distance to the real cleavage site: 4.353947368421053
+model: svm_blossum_0.1
+data: df.csv
+Time: 5101.645464658737
+
