@@ -24,9 +24,22 @@ To use the different models we fitted and selected :
 
 ## Predict Cleavage Sites with SVM Models
 predict_cleavage.py
+This Python script predicts protein cleavage sites using pre-trained SVM models with various kernels (RBF, BLOSUM, scalar, probabilistic). Input can be a sequence string or a file path to a dataset with multiple sequences.
 
-This Python script provides functionality to predict protein cleavage sites using pre-trained SVM models. It supports multiple kernel types including RBF, BLOSUM, scalar, and probabilistic models. Users can input either a sequence string directly or a file path to a dataset containing multiple sequences. The script can be executed from the command line, taking the kernel type and either the sequence or the path to the dataset as arguments. Based on the kernel specified, the script loads the corresponding model, adjusts parameters p and q for the cleavage prediction, and processes the input to output predicted cleavage sites, highlighting them directly in the sequence output. Results include accuracy, average number of predictions, and average distance to real cleavage sites, which are written to a results file.
+    Models and Paths:
+        rbf: data/models/best_svm_rbf.pkl
+        blosum: data/models/best_svm_model_accuracy_BLOSUM.pkl
+        scalar: data/models/best_svm_model_accuracy_scalar.pkl
+        probabilistic: data/models/best_svm_model_accuracy_PROBA.pkl
 
-To run the script, use the syntax: python predict_cleavage.py <kernel> <sequence or file path>. This enables the prediction of cleavage sites from provided sequences, with detailed logging of the results in a designated text file.
+    Parameters:
+        p=13, q=2 for all models
 
+    Usage:
+        Run: python predict_cleavage.py <kernel> <sequence or file path>
+        Example: python predict_cleavage.py rbf "MAGTMAASSAAGLAGLGLAAG"
+
+    Output:
+        Displays the sequence with predicted cleavage sites in bold.
+        Writes accuracy, average number of predictions, and average distance to real cleavage sites to data/results/results_predict_cleavage.txt.
 
