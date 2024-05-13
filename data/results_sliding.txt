@@ -1,0 +1,7 @@
+Accuracy: 0.9
+Average number of predictions: 7.6
+Average distance to the real cleavage site: 4.353947368421053
+model: best_svm_model_matrix
+data: df.csv
+Time: 5078.62761926651
+
