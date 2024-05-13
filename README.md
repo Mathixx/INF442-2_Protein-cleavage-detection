@@ -43,3 +43,8 @@ This Python script predicts protein cleavage sites using pre-trained SVM models 
         Displays the sequence with predicted cleavage sites in bold.
         Writes accuracy, average number of predictions, and average distance to real cleavage sites to data/results/results_predict_cleavage.txt.
 
+
+## other files
+We used other files and notebooks to tune our parameters.
+
+
