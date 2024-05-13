@@ -20,7 +20,8 @@ To use the different models we fitted and selected :
     Here are the following lengths :
         - BLOSUM Model -> p = 13, q = 2 , n = 15
         - Probabilistic Model -> p = 9, q = 2, n = 11
-        - Model using the scalar product -> p = 13, q = 2, n = 15
+        - Model using the scalar product with poly -> p = 13, q = 2, n = 15
+        - Model using the scalar product with poly -> p = 13, q = 2, n = 15
 
 ## Predict Cleavage Sites with SVM Models
 predict_cleavage.py
@@ -46,5 +47,7 @@ This Python script predicts protein cleavage sites using pre-trained SVM models 
 
 ## other files
 We used other files and notebooks to tune our parameters.
+
+
 
 
